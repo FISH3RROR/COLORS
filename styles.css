@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+
+
+
+body {
+    max-width: 100%;
+    margin: 0%;
+}
+
+.header {
+    background-color: white;
+
+
+}
+
+.header__wrapper {
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-left: 64px;
+}
+
+.nav {
+    display: flex;
+
+}
+
+.nav__link {
+    margin-right: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-decoration: none;
+    color: #1F2020;
+}
+
+.nav__link:last-child {
+    margin-right: 524px;
+}
+
+.header__number h4 {
+    margin: 2px;
+    color: #86898f;
+}
+
+
+.header__number {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    flex-direction: column;
+    display: flex;
+    color: #1F2020;
+
+}
+
+.header__icons {
+    margin-left: 116px;
+    margin-right: 24px;
+
+}
+
+.header__basket {
+    margin-right: 64px;
+    margin-left: 24px;
+}
+
+
+
+main {
+    background-color: green;
+    height: 1154px;
+}
+
+footer {
+    background-color: yellow;
+    height: 312px;
+}

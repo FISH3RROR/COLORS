@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLORS</title>
+    <script src="sim-slider/sim-slider.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="sim-slider/styles.css">
+
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <img src="img/logo.svg" alt="лого">
+            </div>
+            <!--Header block-->
+            <nav class="nav">
+                <a href="#" class="nav__link">ПРОДУКТЫ</a>
+                <a href="#" class="nav__link">ЦВЕТА</a>
+                <a href="#" class="nav__link">ВДОХНОВЛЕНИЕ</a>
+                <a href="#" class="nav__link">СОВЕТЫ</a>
+                <a href="#" class="nav__link">НАЙТИ МАГАЗИН</a>
+            </nav>
+            <div class="header__number">
+                <span>+7 (495) 221-77-69</span>
+                <h4>Заказать звонок</h4>
+            </div>
+            <div class="header__block">
+                <div class="header__icons">
+                    <img src="img/Icons.svg" alt="иконки">
+                </div>
+            </div>
+            <div class="headeer__basket">
+                <img src="img/basket.svg" alt="корзина">
+            </div>
+        </div>
+    </header>
+
+
+    <!--Slider-->
+
+
+    <div class="sim-slider">
+        <ul class="sim-slider-list">
+
+            <li class="sim-slider-element"><img src="img/slide-1.svg" alt="1"></li>
+            <li class="sim-slider-element"><img src="img/slide-2.jpg" alt="2"></li>
+            …
+            <li class="sim-slider-element"><img src="" alt="3"></li>
+        </ul>
+        <div class="sim-slider-arrow-left"></div>
+        <div class="sim-slider-arrow-right"></div>
+        <div class="sim-slider-dots"></div>
+
+    </div>
+
+
+
+
+    <script>new Sim()</script>
+
+
+    <main>
+        <div id="products"></div>
+
+        <!-- Catalog -->
+        <script src="catalog.js"></script>
+        <script src="root.js"></script>
+
+
+        <!-- Products -->
+        <script src="Products/products.js"></script>
+        <link rel="stylesheet" href="Products/products.css">
+    </main>
+
+    <footer>
+        //
+    </footer>
+</body>
+
+</html>
